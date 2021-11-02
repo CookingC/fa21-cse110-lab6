@@ -1,0 +1,284 @@
+{
+   "@context":"https://schema.org",
+   "@graph":[
+      {
+         "@type":"Organization",
+         "@id":"https://www.recipetineats.com/#organization",
+         "name":"RecipeTin Eats",
+         "url":"https://www.recipetineats.com/",
+         "sameAs":[
+            "https://www.facebook.com/RecipeTinEats",
+            "http://instagram.com/recipe_tin",
+            "https://www.linkedin.com/in/nagi-maehashi-9779648b",
+            "https://www.youtube.com/c/recipetineats",
+            "http://www.pinterest.com/recipetin/"
+         ],
+         "logo":{
+            "@type":"ImageObject",
+            "@id":"https://www.recipetineats.com/#logo",
+            "inLanguage":"en-US",
+            "url":"https://www.recipetineats.com/wp-content/uploads/2019/04/RecipeTinEats_logo_for_Knowledge_Graph_card.png",
+            "contentUrl":"https://www.recipetineats.com/wp-content/uploads/2019/04/RecipeTinEats_logo_for_Knowledge_Graph_card.png",
+            "width":2591,
+            "height":347,
+            "caption":"RecipeTin Eats"
+         },
+         "image":{
+            "@id":"https://www.recipetineats.com/#logo"
+         }
+      },
+      {
+         "@type":"WebSite",
+         "@id":"https://www.recipetineats.com/#website",
+         "url":"https://www.recipetineats.com/",
+         "name":"RecipeTin Eats",
+         "description":"Fast Prep, Big Flavours",
+         "publisher":{
+            "@id":"https://www.recipetineats.com/#organization"
+         },
+         "potentialAction":[
+            {
+               "@type":"SearchAction",
+               "target":{
+                  "@type":"EntryPoint",
+                  "urlTemplate":"https://www.recipetineats.com/?s={search_term_string}"
+               },
+               "query-input":"required name=search_term_string"
+            }
+         ],
+         "inLanguage":"en-US"
+      },
+      {
+         "@type":"ImageObject",
+         "@id":"https://www.recipetineats.com/oven-baked-chicken-breast/#primaryimage",
+         "inLanguage":"en-US",
+         "url":"https://www.recipetineats.com/wp-content/uploads/2018/05/Oven-Baked-Chicken-Breast_-with-Garlic-Butter-Kale-Rice.jpg",
+         "contentUrl":"https://www.recipetineats.com/wp-content/uploads/2018/05/Oven-Baked-Chicken-Breast_-with-Garlic-Butter-Kale-Rice.jpg",
+         "width":700,
+         "height":979,
+         "caption":"Baked Chicken Breast with a side of Garlic Butter Rice with Kale on a white plate, ready to be eaten."
+      },
+      {
+         "@type":"WebPage",
+         "@id":"https://www.recipetineats.com/oven-baked-chicken-breast/#webpage",
+         "url":"https://www.recipetineats.com/oven-baked-chicken-breast/",
+         "name":"Oven Baked Chicken Breast | RecipeTin Eats",
+         "isPartOf":{
+            "@id":"https://www.recipetineats.com/#website"
+         },
+         "primaryImageOfPage":{
+            "@id":"https://www.recipetineats.com/oven-baked-chicken-breast/#primaryimage"
+         },
+         "datePublished":"2019-03-09T21:50:33+00:00",
+         "dateModified":"2021-08-04T22:53:58+00:00",
+         "description":"The secret to juicy Oven Baked Chicken Breast is to add a touch of brown sugar into the seasoning and to cook fast at a high temp. It colours beautifully and it's practically self-saucing!",
+         "breadcrumb":{
+            "@id":"https://www.recipetineats.com/oven-baked-chicken-breast/#breadcrumb"
+         },
+         "inLanguage":"en-US",
+         "potentialAction":[
+            {
+               "@type":"ReadAction",
+               "target":[
+                  "https://www.recipetineats.com/oven-baked-chicken-breast/"
+               ]
+            }
+         ]
+      },
+      {
+         "@type":"BreadcrumbList",
+         "@id":"https://www.recipetineats.com/oven-baked-chicken-breast/#breadcrumb",
+         "itemListElement":[
+            {
+               "@type":"ListItem",
+               "position":1,
+               "name":"Home",
+               "item":"https://www.recipetineats.com/"
+            },
+            {
+               "@type":"ListItem",
+               "position":2,
+               "name":"Chicken",
+               "item":"https://www.recipetineats.com/category/chicken-recipes/"
+            },
+            {
+               "@type":"ListItem",
+               "position":3,
+               "name":"Oven Baked Chicken Breast"
+            }
+         ]
+      },
+      {
+         "@type":"Article",
+         "@id":"https://www.recipetineats.com/oven-baked-chicken-breast/#article",
+         "isPartOf":{
+            "@id":"https://www.recipetineats.com/oven-baked-chicken-breast/#webpage"
+         },
+         "author":{
+            "@id":"https://www.recipetineats.com/#/schema/person/1d495a057e0419b552333c8526d827a9"
+         },
+         "headline":"Oven Baked Chicken Breast",
+         "datePublished":"2019-03-09T21:50:33+00:00",
+         "dateModified":"2021-08-04T22:53:58+00:00",
+         "wordCount":1036,
+         "commentCount":5301,
+         "publisher":{
+            "@id":"https://www.recipetineats.com/#organization"
+         },
+         "image":{
+            "@id":"https://www.recipetineats.com/oven-baked-chicken-breast/#primaryimage"
+         },
+         "thumbnailUrl":"https://www.recipetineats.com/wp-content/uploads/2018/05/Oven-Baked-Chicken-Breast_-with-Garlic-Butter-Kale-Rice.jpg",
+         "articleSection":[
+            "Chicken",
+            "Chicken Breast",
+            "Emergency Recipes",
+            "Gluten Free Recipes",
+            "Low Calorie",
+            "Main Dishes",
+            "Quick and Easy",
+            "Quick Dinner Recipes"
+         ],
+         "inLanguage":"en-US",
+         "potentialAction":[
+            {
+               "@type":"CommentAction",
+               "name":"Comment",
+               "target":[
+                  "https://www.recipetineats.com/oven-baked-chicken-breast/#respond"
+               ]
+            }
+         ]
+      },
+      {
+         "@type":"Person",
+         "@id":"https://www.recipetineats.com/#/schema/person/1d495a057e0419b552333c8526d827a9",
+         "name":"Nagi",
+         "image":{
+            "@type":"ImageObject",
+            "@id":"https://www.recipetineats.com/#personlogo",
+            "inLanguage":"en-US",
+            "url":"https://secure.gravatar.com/avatar/400004f5258d5b43d30deed3aa6e9566?s=96&d=https%3A%2F%2Fwww.recipetineats.com%2Fwp-content%2Fthemes%2Fonce-coupled-recipe-tin-eats%2Fassets%2Fimages%2Favatar-guest-temp-cache-bust-duplicate.png&r=g",
+            "contentUrl":"https://secure.gravatar.com/avatar/400004f5258d5b43d30deed3aa6e9566?s=96&d=https%3A%2F%2Fwww.recipetineats.com%2Fwp-content%2Fthemes%2Fonce-coupled-recipe-tin-eats%2Fassets%2Fimages%2Favatar-guest-temp-cache-bust-duplicate.png&r=g",
+            "caption":"Nagi"
+         },
+         "description":"I believe you can make great food with everyday ingredients even if you\u2019re short on time and cost conscious. You just need to cook clever and get creative!",
+         "sameAs":[
+            "http:////www.recipetineats.com/about-me/"
+         ]
+      },
+      {
+         "@context":"http://schema.org/",
+         "@type":"Recipe",
+         "name":"Oven Baked Chicken Breast",
+         "author":{
+            "@type":"Person",
+            "name":"Nagi"
+         },
+         "description":"Recipe VIDEO above.\u00a0My tips for a truly juicy, Oven Baked Chicken Breast: a touch of brown sugar in the seasoning which makes the chicken sweat while it bakes so it creates a semi &quot;sauce&quot;, and cooking fast on a high temp! Go by the colour of the crust to know when it&#039;s cooked through.\u00a0",
+         "datePublished":"2019-03-10T08:50:33+00:00",
+         "image":[
+            "https://www.recipetineats.com/wp-content/uploads/2019/03/Oven-Baked-Chicken-Breast_0-SQ.jpg",
+            "https://www.recipetineats.com/wp-content/uploads/2019/03/Oven-Baked-Chicken-Breast_0-SQ.jpg?w=500&h=500&crop=1",
+            "https://www.recipetineats.com/wp-content/uploads/2019/03/Oven-Baked-Chicken-Breast_0-SQ.jpg?w=500&h=375&crop=1",
+            "https://www.recipetineats.com/wp-content/uploads/2019/03/Oven-Baked-Chicken-Breast_0-SQ.jpg?w=480&h=270&crop=1"
+         ],
+         "recipeYield":[
+            "4"
+         ],
+         "prepTime":"PT5M",
+         "cookTime":"PT18M",
+         "totalTime":"PT23M",
+         "recipeIngredient":[
+            "4  chicken breasts (, 150 - 180g / 5 - 6 oz each (Note 1))",
+            "2 tsp olive oil",
+            "1 1/2 tbsp brown sugar",
+            "1 tsp paprika",
+            "1 tsp dried oregano or thyme (, or other herb of choice)",
+            "1/4 tsp garlic powder",
+            "1/2 tsp each salt and pepper",
+            "Finely chopped parsley"
+         ],
+         "recipeInstructions":[
+            {
+               "@type":"HowToStep",
+               "text":"Preheat oven to 425\u00b0F/220\u00b0C (200\u00b0C fan).",
+               "name":"Preheat oven to 425\u00b0F/220\u00b0C (200\u00b0C fan).",
+               "url":"https://www.recipetineats.com/oven-baked-chicken-breast/#wprm-recipe-27872-step-0-0"
+            },
+            {
+               "@type":"HowToStep",
+               "text":"Pound chicken to 1.5cm / 0.6\" at the thickest part - using a rolling pin, meat mallet or even your fist (key tip for even cooking + tender chicken).",
+               "name":"Pound chicken to 1.5cm / 0.6\" at the thickest part - using a rolling pin, meat mallet or even your fist (key tip for even cooking + tender chicken).",
+               "url":"https://www.recipetineats.com/oven-baked-chicken-breast/#wprm-recipe-27872-step-0-1"
+            },
+            {
+               "@type":"HowToStep",
+               "text":"Mix Seasoning.",
+               "name":"Mix Seasoning.",
+               "url":"https://www.recipetineats.com/oven-baked-chicken-breast/#wprm-recipe-27872-step-0-2"
+            },
+            {
+               "@type":"HowToStep",
+               "text":"Line tray with foil and baking / parchment paper. Place chicken upside down on tray. Drizzle chicken with about 1 tsp oil. Rub over with fingers. Sprinkle with Seasoning.",
+               "name":"Line tray with foil and baking / parchment paper. Place chicken upside down on tray. Drizzle chicken with about 1 tsp oil. Rub over with fingers. Sprinkle with Seasoning.",
+               "url":"https://www.recipetineats.com/oven-baked-chicken-breast/#wprm-recipe-27872-step-0-3"
+            },
+            {
+               "@type":"HowToStep",
+               "text":"Flip chicken. Drizzle with 1 tsp oil, rub with fingers, sprinkle with Seasoning, covering as much of the surface area as you can.",
+               "name":"Flip chicken. Drizzle with 1 tsp oil, rub with fingers, sprinkle with Seasoning, covering as much of the surface area as you can.",
+               "url":"https://www.recipetineats.com/oven-baked-chicken-breast/#wprm-recipe-27872-step-0-4"
+            },
+            {
+               "@type":"HowToStep",
+               "text":"Bake 18 minutes, or until surface is golden per photos and video, or internal temperature is 165\u00b0F/75\u00b0C using a meat thermometer.",
+               "name":"Bake 18 minutes, or until surface is golden per photos and video, or internal temperature is 165\u00b0F/75\u00b0C using a meat thermometer.",
+               "url":"https://www.recipetineats.com/oven-baked-chicken-breast/#wprm-recipe-27872-step-0-5"
+            },
+            {
+               "@type":"HowToStep",
+               "text":"Remove from oven and immediately transfer chicken to serving plates.",
+               "name":"Remove from oven and immediately transfer chicken to serving plates.",
+               "url":"https://www.recipetineats.com/oven-baked-chicken-breast/#wprm-recipe-27872-step-0-6"
+            },
+            {
+               "@type":"HowToStep",
+               "text":"Wait 3 - 5 minutes before serving, garnished with freshly chopped parsley if desired. Pictured with a side of Garlic Butter Rice with Kale.",
+               "name":"Wait 3 - 5 minutes before serving, garnished with freshly chopped parsley if desired. Pictured with a side of Garlic Butter Rice with Kale.",
+               "url":"https://www.recipetineats.com/oven-baked-chicken-breast/#wprm-recipe-27872-step-0-7"
+            }
+         ],
+         "aggregateRating":{
+            "@type":"AggregateRating",
+            "ratingValue":"5",
+            "ratingCount":"2027"
+         },
+         "recipeCategory":[
+            "Mains"
+         ],
+         "recipeCuisine":[
+            "Western"
+         ],
+         "keywords":"Baked Chicken Breast, Chicken breast",
+         "nutrition":{
+            "@type":"NutritionInformation",
+            "servingSize":"158 g",
+            "calories":"286 kcal",
+            "carbohydrateContent":"4 g",
+            "proteinContent":"46 g",
+            "fatContent":"7 g",
+            "saturatedFatContent":"1 g",
+            "cholesterolContent":"127 mg",
+            "sodiumContent":"403 mg",
+            "sugarContent":"4 g",
+            "unsaturatedFatContent":"2 g"
+         },
+         "@id":"https://www.recipetineats.com/oven-baked-chicken-breast/#recipe",
+         "isPartOf":{
+            "@id":"https://www.recipetineats.com/oven-baked-chicken-breast/#article"
+         },
+         "mainEntityOfPage":"https://www.recipetineats.com/oven-baked-chicken-breast/#webpage"
+      }
+   ]
+}

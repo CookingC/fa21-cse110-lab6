@@ -1,0 +1,294 @@
+{
+   "@context":"https://schema.org",
+   "@graph":[
+      {
+         "@type":"Organization",
+         "@id":"https://www.recipetineats.com/#organization",
+         "name":"RecipeTin Eats",
+         "url":"https://www.recipetineats.com/",
+         "sameAs":[
+            "https://www.facebook.com/RecipeTinEats",
+            "http://instagram.com/recipe_tin",
+            "https://www.linkedin.com/in/nagi-maehashi-9779648b",
+            "https://www.youtube.com/c/recipetineats",
+            "http://www.pinterest.com/recipetin/"
+         ],
+         "logo":{
+            "@type":"ImageObject",
+            "@id":"https://www.recipetineats.com/#logo",
+            "inLanguage":"en-US",
+            "url":"https://www.recipetineats.com/wp-content/uploads/2019/04/RecipeTinEats_logo_for_Knowledge_Graph_card.png",
+            "contentUrl":"https://www.recipetineats.com/wp-content/uploads/2019/04/RecipeTinEats_logo_for_Knowledge_Graph_card.png",
+            "width":2591,
+            "height":347,
+            "caption":"RecipeTin Eats"
+         },
+         "image":{
+            "@id":"https://www.recipetineats.com/#logo"
+         }
+      },
+      {
+         "@type":"WebSite",
+         "@id":"https://www.recipetineats.com/#website",
+         "url":"https://www.recipetineats.com/",
+         "name":"RecipeTin Eats",
+         "description":"Fast Prep, Big Flavours",
+         "publisher":{
+            "@id":"https://www.recipetineats.com/#organization"
+         },
+         "potentialAction":[
+            {
+               "@type":"SearchAction",
+               "target":{
+                  "@type":"EntryPoint",
+                  "urlTemplate":"https://www.recipetineats.com/?s={search_term_string}"
+               },
+               "query-input":"required name=search_term_string"
+            }
+         ],
+         "inLanguage":"en-US"
+      },
+      {
+         "@type":"ImageObject",
+         "@id":"https://www.recipetineats.com/slow-cooker-beef-brisket-with-bbq-sauce/#primaryimage",
+         "inLanguage":"en-US",
+         "url":"https://www.recipetineats.com/wp-content/uploads/2017/07/Slow-Cooker-BBQ-Beef-Brisket-1-1.jpg",
+         "contentUrl":"https://www.recipetineats.com/wp-content/uploads/2017/07/Slow-Cooker-BBQ-Beef-Brisket-1-1.jpg",
+         "width":900,
+         "height":1260,
+         "caption":"Close up of ultra tender Beef Brisket slices with BBQ Sauce."
+      },
+      {
+         "@type":"WebPage",
+         "@id":"https://www.recipetineats.com/slow-cooker-beef-brisket-with-bbq-sauce/#webpage",
+         "url":"https://www.recipetineats.com/slow-cooker-beef-brisket-with-bbq-sauce/",
+         "name":"Slow Cooker Beef Brisket with BBQ Sauce | RecipeTin Eats",
+         "isPartOf":{
+            "@id":"https://www.recipetineats.com/#website"
+         },
+         "primaryImageOfPage":{
+            "@id":"https://www.recipetineats.com/slow-cooker-beef-brisket-with-bbq-sauce/#primaryimage"
+         },
+         "datePublished":"2018-05-18T04:00:00+00:00",
+         "dateModified":"2021-03-30T01:00:14+00:00",
+         "description":"Ultra tender, juicy Slow Cooker Beef Brisket smothered in a homemade BBQ Sauce. Slow cooker, pressure cooker or stove - then caramelise on the BBQ or oven!",
+         "breadcrumb":{
+            "@id":"https://www.recipetineats.com/slow-cooker-beef-brisket-with-bbq-sauce/#breadcrumb"
+         },
+         "inLanguage":"en-US",
+         "potentialAction":[
+            {
+               "@type":"ReadAction",
+               "target":[
+                  "https://www.recipetineats.com/slow-cooker-beef-brisket-with-bbq-sauce/"
+               ]
+            }
+         ]
+      },
+      {
+         "@type":"BreadcrumbList",
+         "@id":"https://www.recipetineats.com/slow-cooker-beef-brisket-with-bbq-sauce/#breadcrumb",
+         "itemListElement":[
+            {
+               "@type":"ListItem",
+               "position":1,
+               "name":"Home",
+               "item":"https://www.recipetineats.com/"
+            },
+            {
+               "@type":"ListItem",
+               "position":2,
+               "name":"Beef Recipes",
+               "item":"https://www.recipetineats.com/category/beef-recipes/"
+            },
+            {
+               "@type":"ListItem",
+               "position":3,
+               "name":"Slow Cooker Beef Brisket with BBQ Sauce"
+            }
+         ]
+      },
+      {
+         "@type":"Article",
+         "@id":"https://www.recipetineats.com/slow-cooker-beef-brisket-with-bbq-sauce/#article",
+         "isPartOf":{
+            "@id":"https://www.recipetineats.com/slow-cooker-beef-brisket-with-bbq-sauce/#webpage"
+         },
+         "author":{
+            "@id":"https://www.recipetineats.com/#/schema/person/1d495a057e0419b552333c8526d827a9"
+         },
+         "headline":"Slow Cooker Beef Brisket with BBQ Sauce",
+         "datePublished":"2018-05-18T04:00:00+00:00",
+         "dateModified":"2021-03-30T01:00:14+00:00",
+         "wordCount":1915,
+         "commentCount":1222,
+         "publisher":{
+            "@id":"https://www.recipetineats.com/#organization"
+         },
+         "image":{
+            "@id":"https://www.recipetineats.com/slow-cooker-beef-brisket-with-bbq-sauce/#primaryimage"
+         },
+         "thumbnailUrl":"https://www.recipetineats.com/wp-content/uploads/2017/07/Slow-Cooker-BBQ-Beef-Brisket-1-1.jpg",
+         "articleSection":[
+            "Australia Day!",
+            "Beef",
+            "Beef Recipes",
+            "Iconic Dishes",
+            "Main Dishes",
+            "Mains",
+            "Quick and Easy",
+            "Sandwiches and Sliders",
+            "Slow Cooker Recipes",
+            "Sunday Supper",
+            "Winter Warmers"
+         ],
+         "inLanguage":"en-US",
+         "potentialAction":[
+            {
+               "@type":"CommentAction",
+               "name":"Comment",
+               "target":[
+                  "https://www.recipetineats.com/slow-cooker-beef-brisket-with-bbq-sauce/#respond"
+               ]
+            }
+         ]
+      },
+      {
+         "@type":"Person",
+         "@id":"https://www.recipetineats.com/#/schema/person/1d495a057e0419b552333c8526d827a9",
+         "name":"Nagi",
+         "image":{
+            "@type":"ImageObject",
+            "@id":"https://www.recipetineats.com/#personlogo",
+            "inLanguage":"en-US",
+            "url":"https://secure.gravatar.com/avatar/400004f5258d5b43d30deed3aa6e9566?s=96&d=https%3A%2F%2Fwww.recipetineats.com%2Fwp-content%2Fthemes%2Fonce-coupled-recipe-tin-eats%2Fassets%2Fimages%2Favatar-guest-temp-cache-bust-duplicate.png&r=g",
+            "contentUrl":"https://secure.gravatar.com/avatar/400004f5258d5b43d30deed3aa6e9566?s=96&d=https%3A%2F%2Fwww.recipetineats.com%2Fwp-content%2Fthemes%2Fonce-coupled-recipe-tin-eats%2Fassets%2Fimages%2Favatar-guest-temp-cache-bust-duplicate.png&r=g",
+            "caption":"Nagi"
+         },
+         "description":"I believe you can make great food with everyday ingredients even if you\u2019re short on time and cost conscious. You just need to cook clever and get creative!",
+         "sameAs":[
+            "http:////www.recipetineats.com/about-me/"
+         ]
+      },
+      {
+         "@context":"http://schema.org/",
+         "@type":"Recipe",
+         "name":"Slow Cooker Beef Brisket with BBQ Sauce",
+         "author":{
+            "@type":"Person",
+            "name":"Nagi"
+         },
+         "description":"Video above.&nbsp;Beef brisket slow cooked until tender, then finished in the oven to get that gorgeous caramelisation, basted with a homemade BBQ Sauce that the brisket is cooked in. Slice it and serve as part of a hearty Southern style supper or pile it up high on sliders!",
+         "datePublished":"2018-05-18T15:00:00+00:00",
+         "image":[
+            "https://www.recipetineats.com/wp-content/uploads/2017/07/Slow-Cooker-BBQ-Beef-Brisket-2-2-1.jpg",
+            "https://www.recipetineats.com/wp-content/uploads/2017/07/Slow-Cooker-BBQ-Beef-Brisket-2-2-1.jpg?w=500&h=500&crop=1",
+            "https://www.recipetineats.com/wp-content/uploads/2017/07/Slow-Cooker-BBQ-Beef-Brisket-2-2-1.jpg?w=500&h=375&crop=1",
+            "https://www.recipetineats.com/wp-content/uploads/2017/07/Slow-Cooker-BBQ-Beef-Brisket-2-2-1.jpg?w=480&h=270&crop=1"
+         ],
+         "recipeYield":[
+            "8",
+            "8 - 10 people"
+         ],
+         "prepTime":"PT15M",
+         "cookTime":"PT600M",
+         "totalTime":"PT615M",
+         "recipeIngredient":[
+            "1.5 \u2013 2 kg / 3 \u2013 4 lb   beef brisket ((Note 1))",
+            "1 tbsp olive oil  ((or a neutral oil like vegetable, canola))",
+            "1 tbsp brown sugar",
+            "2 tsp paprika powder",
+            "1 tsp onion powder",
+            "1 tsp garlic powder",
+            "1/2 tsp cumin powder",
+            "3/4 tsp mustard powder",
+            "1 tsp salt",
+            "1/2 tsp black pepper",
+            "2  garlic cloves (, minced)",
+            "1/2 cup / 125 ml  apple cider vinegar",
+            "1 1/2 cups / 375 ml  ketchup",
+            "1/2 cup / 110g  brown sugar (, packed)",
+            "2 tsp EACH black pepper, onion powder, mustard powder",
+            "1 tsp cayenne pepper ((adjust to taste re: spiciness))",
+            "1 tbsp Worcestershire sauce"
+         ],
+         "recipeInstructions":[
+            {
+               "@type":"HowToStep",
+               "text":"Mix Rub ingredients.&nbsp;Rub all over brisket. If time permits, leave for 30 minutes \u2013 24 hours in the fridge, but I rarely do this.",
+               "name":"Mix Rub ingredients.&nbsp;Rub all over brisket. If time permits, leave for 30 minutes \u2013 24 hours in the fridge, but I rarely do this.",
+               "url":"https://www.recipetineats.com/slow-cooker-beef-brisket-with-bbq-sauce/#wprm-recipe-22244-step-0-0"
+            },
+            {
+               "@type":"HowToStep",
+               "text":"Combine BBQ Sauce ingredients in a slow cooker. Mix then add the brisket \u2013 squish it in if needed, like I did (see video).",
+               "name":"Combine BBQ Sauce ingredients in a slow cooker. Mix then add the brisket \u2013 squish it in if needed, like I did (see video).",
+               "url":"https://www.recipetineats.com/slow-cooker-beef-brisket-with-bbq-sauce/#wprm-recipe-22244-step-0-1"
+            },
+            {
+               "@type":"HowToStep",
+               "text":"Slow cook in slow cooker for 8 hours (1.5 kg / 3 lb) to 10 hours (2 kg / 4 lb). (Note 2 for pressure cooker and click here for oven)",
+               "name":"Slow cook in slow cooker for 8 hours (1.5 kg / 3 lb) to 10 hours (2 kg / 4 lb). (Note 2 for pressure cooker and click here for oven)",
+               "url":"https://www.recipetineats.com/slow-cooker-beef-brisket-with-bbq-sauce/#wprm-recipe-22244-step-0-2"
+            },
+            {
+               "@type":"HowToStep",
+               "text":"Remove brisket onto a tray.",
+               "name":"Remove brisket onto a tray.",
+               "url":"https://www.recipetineats.com/slow-cooker-beef-brisket-with-bbq-sauce/#wprm-recipe-22244-step-0-3"
+            },
+            {
+               "@type":"HowToStep",
+               "text":"Pour liquid in slow cooker into a saucepan. Bring to simmer over medium high heat and reduce until it thickens to a syrup consistency (it thickens more as it cools).",
+               "name":"Pour liquid in slow cooker into a saucepan. Bring to simmer over medium high heat and reduce until it thickens to a syrup consistency (it thickens more as it cools).",
+               "url":"https://www.recipetineats.com/slow-cooker-beef-brisket-with-bbq-sauce/#wprm-recipe-22244-step-0-4"
+            },
+            {
+               "@type":"HowToStep",
+               "text":"Meanwhile, drizzle brisket with oil then roast in a 200C/390F oven for 15 minutes until brown spots appear. Remove then baste generously with Sauce, then return to oven for 5 minutes. Remove and baste again, then return to oven for 5 \u2013 10 minutes until it caramelises and looks like the photos. (See note for BBQ option)",
+               "name":"Meanwhile, drizzle brisket with oil then roast in a 200C/390F oven for 15 minutes until brown spots appear. Remove then baste generously with Sauce, then return to oven for 5 minutes. Remove and baste again, then return to oven for 5 \u2013 10 minutes until it caramelises and looks like the photos. (See note for BBQ option)",
+               "url":"https://www.recipetineats.com/slow-cooker-beef-brisket-with-bbq-sauce/#wprm-recipe-22244-step-0-5"
+            },
+            {
+               "@type":"HowToStep",
+               "text":"TO SERVE: Slice brisket thinly across the grain and serve with remaining BBQ Sauce. This is terrific served as a meal with sides or piled high onto rolls with\u00a0Coleslaw\u00a0as sliders. See Note 3 for more ideas.",
+               "name":"TO SERVE: Slice brisket thinly across the grain and serve with remaining BBQ Sauce. This is terrific served as a meal with sides or piled high onto rolls with\u00a0Coleslaw\u00a0as sliders. See Note 3 for more ideas.",
+               "url":"https://www.recipetineats.com/slow-cooker-beef-brisket-with-bbq-sauce/#wprm-recipe-22244-step-0-6"
+            }
+         ],
+         "aggregateRating":{
+            "@type":"AggregateRating",
+            "ratingValue":"4.97",
+            "ratingCount":"352"
+         },
+         "recipeCategory":[
+            "Mains"
+         ],
+         "recipeCuisine":[
+            "American",
+            "Southern"
+         ],
+         "keywords":"beef brisket, Brisket, Slow Cooker Brisket",
+         "nutrition":{
+            "@type":"NutritionInformation",
+            "servingSize":"269 g",
+            "calories":"476 kcal",
+            "carbohydrateContent":"24 g",
+            "proteinContent":"66 g",
+            "fatContent":"14 g",
+            "saturatedFatContent":"5.6 g",
+            "transFatContent":"0.7 g",
+            "cholesterolContent":"198 mg",
+            "sodiumContent":"756 mg",
+            "fiberContent":"0.6 g",
+            "sugarContent":"20 g",
+            "unsaturatedFatContent":"8.1 g"
+         },
+         "@id":"https://www.recipetineats.com/slow-cooker-beef-brisket-with-bbq-sauce/#recipe",
+         "isPartOf":{
+            "@id":"https://www.recipetineats.com/slow-cooker-beef-brisket-with-bbq-sauce/#article"
+         },
+         "mainEntityOfPage":"https://www.recipetineats.com/slow-cooker-beef-brisket-with-bbq-sauce/#webpage"
+      }
+   ]
+}

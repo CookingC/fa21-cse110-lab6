@@ -1,0 +1,58 @@
+/* main.css */
+
+* {
+  font-family: sans-serif;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body>div>button {
+  background-color: white;
+  border: 1px solid rgb(223, 225, 229);
+  border-radius: 40px;
+  padding: 8px 100px;
+  position: relative;
+  z-index: 2;
+}
+
+body>div>button:hover {
+  cursor: pointer;
+  filter: brightness(96%);
+}
+
+main {
+  column-gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  max-width: 660px;
+  row-gap: 10px;
+  width: 100%;
+}
+
+#button-horizontal-line {
+  border-top: 1px solid rgb(223, 225, 229);
+  position: absolute;
+  margin-top: -16.5px;
+  width: 656px;
+  z-index: 1;
+}
+
+#button-wrapper {
+  display: grid;
+  justify-items: center;
+  margin-top: 20px;
+  width: 656px;
+}
+
+#button-wrapper>img {
+  filter: opacity(0.7);
+  margin-left: -120px;
+  margin-top: 10px;
+  position: absolute;
+  width: 13px;
+  z-index: 3;
+}
