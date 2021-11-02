@@ -141,22 +141,22 @@ class RecipeCard extends HTMLElement {
       span.innerText = rating;
       var rate_img = document.createElement('img');
       if(Math.round(rating)==5){
-        rate_img.setAttribute('src',"assets/images/icons/5-star.svg")
+        rate_img.setAttribute('src',"./assets/images/icons/5-star.svg")
       }
       if(Math.round(rating)==4){
-        rate_img.setAttribute('src',"assets/images/icons/4-star.svg")
+        rate_img.setAttribute('src',"./assets/images/icons/4-star.svg")
       }
       if(Math.round(rating)==3){
-        rate_img.setAttribute('src',"assets/images/icons/3-star.svg")
+        rate_img.setAttribute('src',"./assets/images/icons/3-star.svg")
       }
       if(Math.round(rating)==2){
-        rate_img.setAttribute('src',"assets/images/icons/2-star.svg")
+        rate_img.setAttribute('src',"./assets/images/icons/2-star.svg")
       }
       if(Math.round(rating)==1){
-        rate_img.setAttribute('src',"assets/images/icons/1-star.svg")
+        rate_img.setAttribute('src',"./assets/images/icons/1-star.svg")
       }
       if(Math.round(rating)==0){
-        rate_img.setAttribute('src',"assets/images/icons/0-star.svg")
+        rate_img.setAttribute('src',"./assets/images/icons/0-star.svg")
       }
       var span_2 = document.createElement('span');
       span_2.innerText = '(' + views + ')';
